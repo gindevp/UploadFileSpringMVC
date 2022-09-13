@@ -9,7 +9,7 @@ private String fileUpload; // = chuỗi "file-upload"
 
  //Ẩn links dẫn tới file ảnh
  
-@Override
+    @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/image/**")
                 .addResourceLocations("file:" + fileUpload);
