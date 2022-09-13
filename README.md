@@ -1,10 +1,10 @@
 # UploadFileSpringMVCThymeleaf
 
-upload_file.properties là file cấu hình tĩnh (có sẵn) trong pakage resources
+    upload_file.properties là file cấu hình tĩnh (có sẵn) trong pakage resources
 
-@PropertySource("classpath:upload_file.properties") viết ở trên đầu ngoại class
-@Value("${file-upload}") dùng để gán đường dẫn có sẵn cho biến
-private String fileUpload; // = chuỗi "file-upload"
+    @PropertySource("classpath:upload_file.properties") viết ở trên đầu ngoại class
+    @Value("${file-upload}") dùng để gán đường dẫn có sẵn cho biến
+    private String fileUpload; // = chuỗi "file-upload"
 
 
  //Ẩn links dẫn tới file ảnh
